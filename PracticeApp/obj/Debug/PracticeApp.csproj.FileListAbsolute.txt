@@ -8,3 +8,4 @@ C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.csproj
 C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.exe
 C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.pdb
 C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.UserForm.resources
+C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.MainForm.resources
