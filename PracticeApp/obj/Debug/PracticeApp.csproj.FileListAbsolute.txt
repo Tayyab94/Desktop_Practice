@@ -10,3 +10,4 @@ C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.pdb
 C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.UserForm.resources
 C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.MainForm.resources
 C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.ListBox.resources
+C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.UpDownListItem.resources

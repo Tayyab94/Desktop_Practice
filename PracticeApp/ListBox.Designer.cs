@@ -51,6 +51,8 @@
             this.LocationListBox.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.LocationListBox.Size = new System.Drawing.Size(117, 228);
             this.LocationListBox.TabIndex = 0;
+            this.LocationListBox.DragEnter += new System.Windows.Forms.DragEventHandler(this.LocationListBox_DragEnter);
+            this.LocationListBox.MouseDown += new System.Windows.Forms.MouseEventHandler(this.LocationListBox_MouseDown);
             // 
             // listBoxLbl
             // 
@@ -68,6 +70,8 @@
             this.Locationtxt.Size = new System.Drawing.Size(264, 22);
             this.Locationtxt.TabIndex = 2;
             this.Locationtxt.TextChanged += new System.EventHandler(this.Locationtxt_TextChanged);
+            this.Locationtxt.DragEnter += new System.Windows.Forms.DragEventHandler(this.Locationtxt_DragEnter);
+            this.Locationtxt.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Locationtxt_MouseDown);
             // 
             // SaveLocationBtn
             // 

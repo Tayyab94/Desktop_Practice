@@ -68,7 +68,49 @@ namespace PracticeApp
                     secondListBox.Items.Add(LocationListBox.SelectedItem);
                     LocationListBox.Items.Remove(LocationListBox.SelectedItem);
                 }
-              
+               
+            }
+        }
+
+        private void Locationtxt_MouseDown(object sender, MouseEventArgs e)
+        {
+            Locationtxt.SelectAll();
+            Locationtxt.DoDragDrop(Locationtxt.Text, DragDropEffects.All);
+        }
+
+        private void LocationListBox_DragEnter(object sender, DragEventArgs e)
+        {
+            if(LocationListBox.SelectedIndex==-1)
+            {
+                e.Effect = DragDropEffects.Move;
+                LocationListBox.Items.Add(e.Data.GetData(DataFormats.Text));
+                Locationtxt.Clear();
+                Locationtxt.Focus();
+            }
+            else
+            {
+                LocationListBox.SelectedIndex = -1;
+            }
+            
+        }
+
+        private void LocationListBox_MouseDown(object sender, MouseEventArgs e)
+        {
+            LocationListBox.DoDragDrop(LocationListBox.Text, DragDropEffects.All);
+        }
+
+        private void Locationtxt_DragEnter(object sender, DragEventArgs e)
+        {
+            //e.Effect = DragDropEffects.Copy;
+            //Locationtxt.Text= e.Data.GetData(DataFormats.Text).ToString();
+
+            if (e.Data.GetDataPresent(DataFormats.Text))
+            {
+                string draggedText = e.Data.GetData(DataFormats.Text) as string;
+                if (draggedText != null)
+                {
+                    Locationtxt.Text = draggedText;
+                }
             }
         }
     }
