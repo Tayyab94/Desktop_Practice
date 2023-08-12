@@ -1,0 +1,15 @@
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\bin\Debug\FirstDemoDesktop.exe.config
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\bin\Debug\FirstDemoDesktop.exe
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\bin\Debug\FirstDemoDesktop.pdb
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\bin\Debug\EntityFramework.dll
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\bin\Debug\EntityFramework.xml
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\obj\Debug\FirstDemoDesktop.csproj.AssemblyReference.cache
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\obj\Debug\FirstDemoDesktop.Properties.Resources.resources
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\obj\Debug\FirstDemoDesktop.UserRegister.resources
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\obj\Debug\FirstDemoDesktop.csproj.GenerateResource.cache
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\obj\Debug\FirstDemoDesktop.csproj.CoreCompileInputs.cache
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\obj\Debug\FirstDemoDesktop.csproj.CopyComplete
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\obj\Debug\FirstDemoDesktop.exe
+C:\Users\tayya\Desktop\FirstDemoDesktop\FirstDemoDesktop\obj\Debug\FirstDemoDesktop.pdb
