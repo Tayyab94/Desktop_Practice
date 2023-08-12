@@ -31,6 +31,7 @@
             this.locationList = new System.Windows.Forms.ListBox();
             this.UpBtn = new System.Windows.Forms.Button();
             this.DownBtn = new System.Windows.Forms.Button();
+            this.DOB = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // locationList
@@ -66,11 +67,25 @@
             this.DownBtn.UseVisualStyleBackColor = true;
             this.DownBtn.Click += new System.EventHandler(this.DownBtn_Click);
             // 
+            // DOB
+            // 
+            this.DOB.CustomFormat = "yyyy-MMM-dd m:ss";
+            this.DOB.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.DOB.Location = new System.Drawing.Point(52, 174);
+            this.DOB.MaxDate = new System.DateTime(2023, 8, 12, 18, 13, 47, 0);
+            this.DOB.Name = "DOB";
+            this.DOB.Size = new System.Drawing.Size(254, 22);
+            this.DOB.TabIndex = 3;
+            this.DOB.Value = new System.DateTime(2023, 8, 12, 0, 0, 0, 0);
+            this.DOB.KeyDown += new System.Windows.Forms.KeyEventHandler(this.dateTimePicker1_KeyDown);
+            this.DOB.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.dateTimePicker1_KeyPress);
+            // 
             // UpDownListItem
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.DOB);
             this.Controls.Add(this.DownBtn);
             this.Controls.Add(this.UpBtn);
             this.Controls.Add(this.locationList);
@@ -85,5 +100,6 @@
         private System.Windows.Forms.ListBox locationList;
         private System.Windows.Forms.Button UpBtn;
         private System.Windows.Forms.Button DownBtn;
+        private System.Windows.Forms.DateTimePicker DOB;
     }
 }

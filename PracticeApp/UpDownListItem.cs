@@ -36,6 +36,7 @@ namespace PracticeApp
 
         private void DownBtn_Click(object sender, EventArgs e)
         {
+            var date = DOB.Value;
             if (locationList.SelectedIndex == -1)
                 MessageBox.Show("Please Select a item ", "Error", MessageBoxButtons.OK);
 
@@ -49,6 +50,17 @@ namespace PracticeApp
             locationList.Items.Insert(newIndex, selected);
 
             locationList.SetSelected(newIndex, true);
+        }
+
+        private void dateTimePicker1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+        }
+
+        private void dateTimePicker1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.KeyCode == Keys.Back || e.KeyCode==Keys.Delete) {
+                DOB.CustomFormat = "";   
+            }
         }
     }
 }
