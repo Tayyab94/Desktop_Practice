@@ -62,5 +62,28 @@ namespace PracticeApp
                 DOB.CustomFormat = "";   
             }
         }
+
+        private void uploadImgBtn_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFile = new OpenFileDialog();
+            openFile.Title = "Select Image";
+            openFile.Filter = "JPG Files (*.jpg)|*.jpg|PNG Files (*.png)|*.png";
+            openFile.ShowDialog();
+
+            if(openFile.ShowDialog() == DialogResult.OK)
+            {
+                usreImg.Image= new Bitmap(openFile.FileName);
+            }
+        }
+
+        private void RemoveImageBtn_Click(object sender, EventArgs e)
+        {
+            usreImg.Image = null;
+        }
+
+        private void usreImg_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
