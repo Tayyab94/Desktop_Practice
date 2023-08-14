@@ -52,11 +52,29 @@
     <Compile Include="ListBox.Designer.cs">
       <DependentUpon>ListBox.cs</DependentUpon>
     </Compile>
+    <Compile Include="ListView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListView.Designer.cs">
+      <DependentUpon>ListView.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MDIForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIForm.Designer.cs">
+      <DependentUpon>MDIForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewFile.Designer.cs">
+      <DependentUpon>NewFile.cs</DependentUpon>
     </Compile>
     <Compile Include="UpDownListItem.cs">
       <SubType>Form</SubType>
@@ -75,8 +93,17 @@
     <EmbeddedResource Include="ListBox.resx">
       <DependentUpon>ListBox.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ListView.resx">
+      <DependentUpon>ListView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIForm.resx">
+      <DependentUpon>MDIForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewFile.resx">
+      <DependentUpon>NewFile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

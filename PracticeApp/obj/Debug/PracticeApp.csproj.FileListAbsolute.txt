@@ -11,3 +11,6 @@ C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.UserFo
 C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.MainForm.resources
 C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.ListBox.resources
 C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.UpDownListItem.resources
+C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.ListView.resources
+C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.MDIForm.resources
+C:\Users\tayya\Desktop\FirstDemoDesktop\PracticeApp\obj\Debug\PracticeApp.NewFile.resources

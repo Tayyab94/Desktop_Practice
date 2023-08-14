@@ -34,6 +34,7 @@
             this.addsubjecttxt = new System.Windows.Forms.TextBox();
             this.addSibjectBtn = new System.Windows.Forms.Button();
             this.removeSelectedItem = new System.Windows.Forms.Button();
+            this.UserName = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // subjectComboBox
@@ -96,11 +97,21 @@
             this.removeSelectedItem.UseVisualStyleBackColor = true;
             this.removeSelectedItem.Click += new System.EventHandler(this.removeSelectedItem_Click);
             // 
+            // UserName
+            // 
+            this.UserName.AcceptsTab = true;
+            this.UserName.Location = new System.Drawing.Point(28, 291);
+            this.UserName.Name = "UserName";
+            this.UserName.Size = new System.Drawing.Size(421, 22);
+            this.UserName.TabIndex = 6;
+            this.UserName.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.UserName_KeyPress);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(555, 442);
+            this.Controls.Add(this.UserName);
             this.Controls.Add(this.removeSelectedItem);
             this.Controls.Add(this.addSibjectBtn);
             this.Controls.Add(this.addsubjecttxt);
@@ -122,5 +133,6 @@
         private System.Windows.Forms.TextBox addsubjecttxt;
         private System.Windows.Forms.Button addSibjectBtn;
         private System.Windows.Forms.Button removeSelectedItem;
+        private System.Windows.Forms.TextBox UserName;
     }
 }

@@ -16,7 +16,7 @@ namespace PracticeApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new UpDownListItem());
+            Application.Run(new MDIForm());
         }
     }
 }
